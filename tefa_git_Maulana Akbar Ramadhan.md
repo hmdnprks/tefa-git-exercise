@@ -1,4 +1,5 @@
-﻿## Soal Latihan Konsep Git
+﻿## MAULANA AKBAR RAMADHAN
+## Soal Latihan Konsep Git
 1.  Jelaskan perbedaan antara command  `git pull`  dan  `git fetch`.
 	**Jawaban** :
 	
