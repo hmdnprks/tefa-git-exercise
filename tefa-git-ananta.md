@@ -19,4 +19,4 @@
 7.  `git commit -m "some changes" --no-verify`, melakukan commit dengan pesan "some change" tanpa menjalankan git hooks
 8.  `git remote add upstream https://github.com/hmdnprks/tefa-git-exercise.git`, untuk menetapkan repo GitHub "hmdnprks/tefa-git-exercise.git" sebagai remote
 9.  `git reset --hard`, untuk menghapus snapshot commit dan perubahan pada file secara otomatis tanpa perintah lanjutan secara permanen
-10. `git mv home.html Home.html`, untuk rename file "home.html" menjadi "Home.html"
+10. `git mv home.html Home.html`, untuk rename atau move file "home.html" menjadi "Home.html"
