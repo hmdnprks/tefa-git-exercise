@@ -13,7 +13,7 @@
 1.  `git branch -d feature-login`, digunakan untuk menghapus branch feature-login
 2.  `git checkout -b feature-register` untuk membuat branch baru feature-register dan berpindah ke branch feature-register
 3.  `git stash apply`, untuk menerapkan git stash ke direktori kerja saat ini
-4.  `git tag -a v1.0.1`
+4.  `git tag -a v1.0.1`, Untuk membuat tag beranotasi dengan nama v1.0.1
 5.  `git diff HEAD introduction.html`, untuk membandingkan versi file di direktori kerja dengan file repositori introduction.html
 6.  `git pull --rebase`, untuk menerapkan perubahan lokal diterapkan kembali di atas perubahan remote
 7.  `git commit -m "some changes" --no-verify`, melakukan commit dengan pesan "some change" tanpa menjalankan git hooks
