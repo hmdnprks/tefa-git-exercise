@@ -1,0 +1,31 @@
+## Soal Latihan Konsep Git
+1. Jelaskan perbedaan antara command `git pull` dan `git fetch`.
+~ `git pull` akan mengambil commit terbaru dan akan otomatis menggabungkan dengan branch yang aktif.
+~ `git fetch` akan mengambiil commit saja dan tidak akan langsung melakukan merge.
+
+2. Jelaskan konsep `rebase` pada Git dan perbedaannya dengan `merge`.
+~ `rebase` berfungsi memodifikasi riwayat commit yang sudah ada. Jika `merge` akan menghasilkan commit baru sedangakn `rebase` tidak sehingga menghasilkan riwayat yang lebih rapi tanpa percabangan.
+
+3. Apakah itu `git cherry-pick` dan kapan sebaiknya kita menggunakan command tersebut?
+~ `git cherry-pick` merupakan perintah untuk memasang suatu commit dalam repository yang sama dan berbeda di git branch. `git cherry-pick`digunakan jika ingin menyalin beberapa commit yang ditentukan.
+
+4. Jelaskan langkah-langkah cara *resolve conflict* di Git.
+~ -cara paling mudah untuk menyelesaikan file yang konflik adalah dangan membuka dan mengubahnya.
+-Setelah melakukan perubahan pada file, gunakan command `git add` untuk menampilka konten baru yang digabungkan. Untuk menyelesaikan penggabungan buat commit baru.
+-Git akan melihat bahwa konflik telah diselesaikan dan membuat commit gabungan baru untuk menyelesaikan penggabungan.
+
+5. Bagaimana cara membatalkan `commit` yang sudah terlanjut ter-*push* ke repository?
+~ Dengan cara me-revert repository lokal yang ada menggunakan perintah $ git reset --hard <commit-id>
+
+## Soal Latihan Command Git
+Jelaskan fungsi-fungsi dari *list command* Git berikut
+1. `git branch -d feature-login`, digunakan untuk menghapus feature-login.
+2. `git checkout -b feature-register`, fungsinya sama dengan git branch namun kelebihannya bisa langsung berpindah ke branch yang diinginkan.
+3. `git stash apply`, berfungsi untuk mengembalikan kondisi file paling atas yang sebelumnya kita simpan.
+4. `git tag -a v1.0.1`, membuat notasi tag dengan nama v1.0.1
+5. `git diff HEAD introduction.html`, berfungsi untuk membandingkan file versi di direktori dengan file repository aktif introduction.html
+6. `git pull --rebase`, Jika kita menarik perubahan jarak jauh dengan flag --rebase , maka perubahan lokal diterapkan kembali di atas perubahan jarak jauh.
+7. `git commit -m "some changes" --no-verify`, melakukan commit dengan pesan "some change" tanpa menjalankan git hooks
+8. `git remote add upstream https://github.com/hmdnprks/tefa-git-exercise.git`, berfungsi untuk menetapkan upstream pada repository "hmdnprks/tefa-git-exercise.git"
+9. `git reset --hard`, berfungsi unutk mereset commit yang dibuat lalu membuang perubahan yang dibuat.
+10.`git mv home.html Home.html`, berfungsi untuk me-rename home.htm menjadi Home.html
